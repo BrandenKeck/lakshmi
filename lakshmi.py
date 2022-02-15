@@ -10,3 +10,4 @@ class lakshmi():
 
 ll = lakshmi()
 ll.data_loader.init_skater(8471675, [20192020, 20202021, 20212022])
+ll.data_loader.cross_skater_metrics(8471675)

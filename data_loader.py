@@ -92,6 +92,7 @@ class data_loader():
             norm_pm = self.array_runner(norm_pm, pm/toi, 10)
 
             # Player data
+            player_stats[game["game"]["gamePk"]]
             player_stats[game["game"]["gamePk"]] = {
                 "date": date,
                 "toi": toi,
@@ -165,6 +166,7 @@ class data_loader():
 
         # Import skater data
         staker_data = self.db.set_node(f'/player_data/{skater_id}')
+        print(staker_data)
 
     def init_goalie(self, goalie_id):
         pass
